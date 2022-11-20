@@ -1,0 +1,36 @@
+.parallax {
+  transform-style: preserve-3d;
+  height:120vh;
+}
+.parallax-layer {
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}
+.parallax-background {
+  background-image: url('../../assets/welcome-background.jpg');
+  transform: translate3d(-11px,-46px,-1.3px) scale(2.3);
+}
+.parallax-astronaut {
+  background-image: url('../../assets/astronaut.png');
+  transform: translate3d(0,-98px,-.4px) scale(1.2);
+  background-size: auto 100%;
+}
+
+.parallax-title {
+  transform: translate3d(0,-47px,-.7px) scale(1.6);
+}
+
+.parallax-title pre {
+  color: #fff;
+  font-size: 150px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
